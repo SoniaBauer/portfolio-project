@@ -1,15 +1,34 @@
 body{
-    background-color: black;
+    background-color:#F3F1EF;
 }
-h1{
-    color:white;
+h1,h3{
+    color:#303030;
     font-family: 'Playfair Display',serif;
     font-weight: bold;
+    font-size: 45px;
 
 }
-p{
-    color: wheat;
-    font-family: 'Poppins',sans-serif;
-    font-weight: normal;
+h2{
+    color:#303030;
+    font-family:"Dancing Script", serif;
+    font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  font-size: 96px;
+
+}
+
+.topsection{
+    background-color:#F3F1EF;
+    text-align: center;
+}
+
+.btn-secondary{
+    color: #303030;
+    border-color: rgba(48, 48, 48, 1);
+    border-width: 1px;
+    background-color:rgb(249, 247, 244) ;
+    border-style: solid;
+    border-radius: 10px;
 
 }
