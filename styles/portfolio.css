@@ -1,15 +1,18 @@
 body{
     background-color:#F3F1EF;
+    margin-inline: 10px;
+    margin-top: 20px;
 }
 h1,h3{
-    color:#303030;
+
+    color:rgb(200, 189, 172) ;
     font-family: 'Playfair Display',serif;
     font-weight: bold;
     font-size: 45px;
 
 }
-h2{
-    color:#303030;
+h2{ 
+    color:rgba(48, 48, 48, 1);
     font-family:"Dancing Script", serif;
     font-optical-sizing: auto;
   font-weight: 700px;
@@ -18,17 +21,31 @@ h2{
 
 }
 
+
 .topsection{
-    background-color:#F3F1EF;
+    background-color:rgb(234, 231, 227);
     text-align: center;
+    display: block;
+    margin-top: 150px;
+    
+   
+}
+button{
+    display:block;
+    margin: auto;
+    gap: 40px;
+    margin-top: 20px;
 }
 
 .btn-secondary{
-    color: #303030;
+    color: rgb(200, 189, 172);
     border-color: rgba(48, 48, 48, 1);
     border-width: 1px;
-    background-color:rgb(249, 247, 244) ;
+    background-color:rgba(48, 48, 48, 1) ;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 4px;
+    line-height: 27px;
+    font-size: 18px;
+    padding: 15px 30px;
 
 }
